@@ -1,1 +1,2 @@
-console.log('Hello World');
+import domFunction from './dom-function';
+domFunction();
