@@ -22,17 +22,6 @@ const showHome = () => {
   paragraph.innerHTML = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
   home.appendChild(paragraph);
 
-  const anotherHeader3 = document.createElement('h3');
-  anotherHeader3.innerHTML = 'Location and Hours';
-  home.appendChild(anotherHeader3);
-
-  const address = document.createElement('p');
-  address.innerHTML = '521 Wonderland Rd. <br/ > 12345 <br/ > Atlanta, GA <br/ >';
-  home.appendChild(address);
-
-  const times = document.createElement('p');
-  times.innerHTML = 'Monday-Saturday <br/ > 9AM-11PM';
-  home.appendChild(times);
 }
 
-export default showHome;
+export { showHome };
